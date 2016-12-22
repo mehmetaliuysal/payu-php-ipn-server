@@ -29,7 +29,7 @@ Success Response :
 
 Secret Key Definition 
 ```sh
-PayuIpnServer.php
+PayuIpnServer.php on line 14
 ```
 
 ```sh
@@ -39,7 +39,7 @@ private static $secret = 'XXXXXXXXXXXX';
 Customizing for request data and live order data equality
 
 ```sh
-PayuIpnServer.php
+PayuIpnServer.php on line 67
 ```
 ```sh
 $resultHash = self::hmac($pass, $return);
